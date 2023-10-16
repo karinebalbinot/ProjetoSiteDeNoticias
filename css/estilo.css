@@ -80,7 +80,7 @@ body.home #navegacao a#ciencia,
 body.home #navegacao a#fotos,
 
 {
-    
+
 color: #fff;
 background: #de003e;
 cursor: text;
@@ -94,7 +94,25 @@ cursor: text;
 
 }
 
-#lateral{
+/* Formatar menus laterais */
+#lateral ul a {
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover {
+    color: #a1a1a1;
+    background: #f9f9f9 url(../imagens/marcador.png) no-repeat left center;
+    padding-left: 20px;
+}
+
+
+#lateral {
     width: 180px;
     float: left;
     margin: 0 0 20px -750px;
@@ -106,7 +124,6 @@ cursor: text;
     width: 270px;
     float: left;
     margin: 0 0 20px 195px;
-    background: #381abe;
 
 }
 
@@ -120,43 +137,97 @@ cursor: text;
 
     width: 750px;
     margin: 0 0 20px 0;
-    
+
 
 }
 
-#secundario{
+#secundario {
     width: 270px;
     float: left;
     margin: 0 0 20px 15px;
-    background: #12863f;
+
 
 }
 
-#container-rodape{
-    background:#294c71;
+/* Formatando Formulários */
+
+label {
+    display: block;
+    cursor: pointer;
+
+}
+
+input {
+    padding: 5px;
+    font-size: 0.9em;
+    background: #fff;
+    width: 125px;
+
+}
+
+input.submit {
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+
+}
+
+
+/* Formatando Imagens */
+
+img.imagem-principal {
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+
+h3 {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+
+}
+
+.destaque h3 {
+    background: #b10333;
+    color: #fff;
+
+}
+
+.entrevista h3 {
+    background: #b10333;
+    color: #fff;
+
+}
+
+/* Rodape*/
+#container-rodape {
+    background: #294c71;
     padding: 20px;
 }
 
-.caixa{
+/* Caixa */
+.caixa {
     margin: 10px 0;
     padding: 5px;
     background: #f3f3f3 url(../imagens/fundo-caixa.png);
 }
 
-h2{
+h2 {
     font-size: 1.1em;
     background: #294c71;
     color: #fff;
     padding: 5px;
 }
 
-.caixa-conteudo{
+.caixa-conteudo {
     background: #fff;
     padding: 5px;
     margin-top: 5px;
 }
 
-#rodape{
+#rodape {
     width: 750px;
     margin: 0 auto;
     color: #fff;
