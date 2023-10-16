@@ -72,20 +72,19 @@ ul {
 }
 
 body.home #navegacao a#home,
-body.home #navegacao a#brasil,
-body.home #navegacao a#internacional,
-body.home #navegacao a#economia,
-body.home #navegacao a#saude,
-body.home #navegacao a#ciencia,
-body.home #navegacao a#fotos,
+body.brasil #navegacao a#brasil,
+body.internacional #navegacao a#internacional,
+body.economia #navegacao a#economia,
+body.saude #navegacao a#saude,
+body.ciencia #navegacao a#ciencia,
+body.fotos #navegacao a#fotos
 
 {
-
-color: #fff;
-background: #de003e;
-cursor: text;
-
+    color: #fff;
+    background: #de003e;
+    cursor:text;
 }
+
 
 #conteudo {
 
@@ -195,7 +194,7 @@ h3 {
 
 }
 
-.entrevista h3 {
+.entrevista h3{
     background: #b10333;
     color: #fff;
 
